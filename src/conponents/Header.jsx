@@ -1,7 +1,7 @@
 const Header=()=>{
   return(
 <div>
-    header component....
+    header component.......
 </div>
   )
 
