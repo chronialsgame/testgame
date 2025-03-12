@@ -8,6 +8,7 @@ import Header from './conponents/Header'
 import Banner from './conponents/Banner'
 import Skills from './conponents/Skills';
 import Projects from './conponents/Projects';
+import Footer from './conponents/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Banner/>
       <Skills/>
       <Projects/>
+      <Footer/>
     </>
   )
 }

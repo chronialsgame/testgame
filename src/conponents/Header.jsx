@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container, NavDropdown} from "react-bootstrap";
-import chronials from '../assets/img/chronialsLogo.png'
+import chronials from '../assets/img/chronialsNew-logo.png'
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import xlogo from '../assets/img/NewXlogo.png';
+import telegram from '../assets/img/teleg.png';
+import dexLogo from '../assets/img/DexLogo.png';
+
 import { HashLink } from 'react-router-hash-link';
 
 import {
@@ -50,9 +53,9 @@ const Header =()=>{
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={xlogo} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://x.com/chronialsgame"><img src={xlogo} alt="xChronialsgame" /></a>
+                <a href="#"><img src={telegram} alt="" /></a>
+                <a href="#"><img src={dexLogo} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

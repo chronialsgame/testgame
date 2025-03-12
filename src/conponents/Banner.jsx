@@ -8,8 +8,8 @@ import samDiana from '../assets/img/SamDiana.png';
         <Container>
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
-                <span className="tagline">Welcome to our World</span>
-                <h1>{'Chronials'}<span className="wrap">.</span></h1>
+                <span className="tagline">Fight Cute, Play Fierce!</span>
+                <h1>{'Chronials'}<span className="wrap">!</span></h1>
                 <p>A battle field of the brave warriers protecting their land</p>
                 <button onClick={()=>console.log('connect')}>Let's Play<ArrowRightCircle size={25}/></button>
                 </Col>
